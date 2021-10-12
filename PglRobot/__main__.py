@@ -226,7 +226,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ADD ME IN YOUR GROUP ⚡️",
+                                text="⚡👑ADD ME IN YOUR GROUP👑⚡️",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -234,13 +234,16 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="SUPPORT ⚡️",
+                                text="⚡👑MR PRINCE SUPPORT👑⚡️",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="⚡👑UPDATES👑⚡️",
-                                url="https://t.me/STYLISH_FRIEND_CLUB",
+                                text="⚡👑CREATER BY👑⚡️",
+                                url="https://t.me/STUDY_FLOWER",
                             ),
+                            InlineKeyboardButton(
+                                text="⚡👑MR PRINCE UPDATE👑⚡️",
+                                url="https://t.me/STYLISH_FRIEND_CLUB",
                         ],
                         [
                             InlineKeyboardButton(
