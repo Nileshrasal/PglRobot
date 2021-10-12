@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am a  Powerfull  group management bot. You can find my list of available commands with /help.
+I am a MR PRINCE  Powerfull  group management bot. You can find my list of available commands with /help. JOIN @STYLISH_FRIEND_CLUB
 """
 G_START_TEXT = """
 Hello PglRobot Is In The Chat.
@@ -91,7 +91,7 @@ the things I can help you with.
  • /donate: information on how to donate!
  • /settings:
    • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+   • in a group: will redirect you to pm, with all that chat's settings. JOIN @STYLISH_FRIEND_CLUB
 
 
 {}
@@ -101,9 +101,9 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-PglRobot_IMG = "https://telegra.ph/file/f1d7b30b05ba9f0dbf4e5.jpg"
+PglRobot_IMG = "https://telegra.ph/file/0b2272ddb6abf751be763.jpg"
 
-PglRobotG_IMG = "https://telegra.ph/file/e8881931bc000c75e8f13.jpg"
+PglRobotG_IMG = "https://telegra.ph/file/0b2272ddb6abf751be763.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting [Gaurav Verma](https://t.me/iisgaurav).
@@ -238,13 +238,13 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="UPDATES ⚡️",
+                                text="⚡👑UPDATES👑⚡️",
                                 url="https://t.me/STYLISH_FRIEND_CLUB",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="POWERED BY⚡️",
+                                text="⚡👑OWNER MR PRINCE👑⚡️",
                                 url="https://t.me/Princepatil96k",
                             ),
                         ],
